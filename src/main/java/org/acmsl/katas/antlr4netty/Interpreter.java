@@ -45,6 +45,8 @@ import org.jetbrains.annotations.NotNull;
  */
 import org.checkthread.annotations.ThreadSafe;
 
+import java.math.BigDecimal;
+
 /**
  * Interpreter to perform basic arithmetic calculations.
  * @author <a href="mailto:queryj@acm-sl.org">Jose San Leandro</a>
@@ -55,4 +57,7 @@ import org.checkthread.annotations.ThreadSafe;
 public class Interpreter
 {
 
+    public BigDecimal eval()
+    {
+    }
 }
