@@ -33,7 +33,7 @@
  *
  * Author: Jose San Leandro Armendariz
  *
- * Description: Defines the ANTLR parser rules for template debugging in
+ * Description: Defines a
  *              QueryJ.
  *
  */
