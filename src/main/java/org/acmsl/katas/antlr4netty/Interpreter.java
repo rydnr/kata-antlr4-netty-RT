@@ -98,6 +98,9 @@ public class Interpreter
             {
                 @Override
                 public void exitCommand(@NotNull final InterpreterParser.CommandContext ctx)
+                {
+
+                }
             }
         );
     }
