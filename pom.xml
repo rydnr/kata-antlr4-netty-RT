@@ -71,8 +71,8 @@
           <visitor>true</visitor>
           <outputDirectory>${project.build.directory}/generated-sources/</outputDirectory>
         </configuration>
-          <executions>
-           <execution>
+        <executions>
+          <execution>
             <phase>generate-sources</phase>
             <goals>
               <goal>antlr4</goal>
