@@ -1,4 +1,4 @@
-kata-antlr4-netty-RT
-====================
+kata-antlr4-netty
+=================
 
-RT repository for ANTLR4/Netty katas
+Repository to host katas to show how to design an ANTLR4 interpreter and serving it via Netty

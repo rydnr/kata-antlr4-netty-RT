@@ -1,0 +1,66 @@
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.acmsl.queryj.katas</groupId>
+  <artifactId>antlr4-netty</artifactId>
+  <packaging>jar</packaging>
+  <version>latest-SNAPSHOT</version>
+  <name>Netty server for a custom ANTLR4 interpreter</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.antlr</groupId>
+      <artifactId>antlr4</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.antlr</groupId>
+      <artifactId>antlr4-runtime</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-buffer</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.checkthread</groupId>
+      <artifactId>checkthread-annotations</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.antlr</groupId>
+        <artifactId>antlr4-maven-plugin</artifactId>
+        <goals>
+          <goal>antlr4</goal>
+        </goals>
+        <configuration>
+          <encoding>UTF-8</encoding>
+          <listener>true</listener>
+          <visitor>true</visitor>
+          <outputDirectory>${project.build.directory}/generated-sources/</outputDirectory>
+        </configuration>
+      </plugin>
+   </plugins>
+  </build>
+
+</project>
