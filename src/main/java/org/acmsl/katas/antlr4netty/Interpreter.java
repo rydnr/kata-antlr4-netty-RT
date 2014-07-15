@@ -75,7 +75,7 @@ public class Interpreter
      *
      */
     @NotNull
-    protected IntepreterParser
+    protected IntepreterParser setupParser()
     /**
      * Evaluates the operation.
      * @return the result of the operation.
