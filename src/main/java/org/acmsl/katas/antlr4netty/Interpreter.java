@@ -118,9 +118,7 @@ public class Interpreter
                         result = null;
                     }
 
-                    System.out.println("Intercepted [" + left + ", " + operator + ", " + right + "]");
-
-                    return new BigDecimal("3");
+                    return result;
                 }
             }.visit(tree);
     }
