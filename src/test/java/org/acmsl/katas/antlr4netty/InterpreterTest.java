@@ -53,7 +53,6 @@ import org.junit.Test;
  * @since 3.0
  * Created: 2014/07/15 08:06
  */
-@ThreadSafe
 public class InterpreterTest
 {
     @Test
