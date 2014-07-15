@@ -107,6 +107,7 @@ public class Interpreter
             }
         );
 
+        parser.p
         return new BigDecimal("3");
     }
 }
