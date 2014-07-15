@@ -70,7 +70,6 @@ public class Interpreter
      */
     public Interpreter()
     {
-        this.operation = op;
     }
 
     /**
