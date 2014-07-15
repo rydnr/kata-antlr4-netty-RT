@@ -103,7 +103,9 @@ public class Interpreter
                 public BigDecimal visitCommand(
                     @org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
                 {
-                    @NotNull final String left = new BigDecimal(ctx.getChild(0).getText());
+                    @NotNull final BigDecimal result;
+
+                    @NotNull final BigDecimal left = new BigDecimal(ctx.getChild(0).getText());
                     @NotNull final String operator = ctx.getChild(1).getText();
                     @NotNull final String right = ctx.getChild(2).getText();
 
