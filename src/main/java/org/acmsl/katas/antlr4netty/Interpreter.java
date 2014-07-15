@@ -107,7 +107,7 @@ public class Interpreter
                 @NotNull final String right = ctx.getChild(3).getText();
                 System.out.println("Intercepted [" + left + ", " + operator + ", " + right + "]");
 
-                return
+                return new BigDecimal("3");
             }
         }.visit(tree);
 
