@@ -93,6 +93,6 @@ public class Interpreter
     {
         InterpreterParser parser = setupParser(operation);
 
-
+        parser.addParseListener();
     }
 }
