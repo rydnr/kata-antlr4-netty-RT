@@ -124,7 +124,7 @@ grammar Interpreter;
  * PARSER RULES
  *------------------------------------------------------------------*/
 
-command : reload | nextTable | prevTable;
+command : sum | nextTable | prevTable;
 
 reload : RELOAD;
 nextTable: NEXT;
