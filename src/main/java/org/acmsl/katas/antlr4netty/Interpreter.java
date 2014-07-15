@@ -70,6 +70,7 @@ public class Interpreter
     {
         this.operation = op;
     }
+
     /**
      * Evaluates the operation.
      * @return the result of the operation.
