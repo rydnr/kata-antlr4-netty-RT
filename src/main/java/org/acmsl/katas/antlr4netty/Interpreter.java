@@ -97,7 +97,7 @@ public class Interpreter
             new InterpreterBaseListener()
             {
                 @Override
-                public void exitCommand(@NotNull final InterpreterParser.CommandContext ctx)
+                public void exitCommand(@org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
                 {
 
                 }
