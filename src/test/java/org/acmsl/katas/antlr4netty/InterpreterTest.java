@@ -57,7 +57,7 @@ public class InterpreterTest
     @Test
     public void interpreter_sums_positive_integers()
     {
-        @NotNull final Interpreter interpreter = new Interpreter("1+2");
+        @NotNull final Interpreter interpreter = new Interpreter();
 
         Assert.assertEquals(3, interpreter.eval());
     }
