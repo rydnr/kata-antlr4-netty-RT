@@ -126,9 +126,8 @@ grammar Interpreter;
 
 command : exp op exp;
 
-exp : NUM;
+exp : NUMBER;
 op : OPERATOR;
-prevTable: PREV;
 
 /*------------------------------------------------------------------
  * LEXER RULES
