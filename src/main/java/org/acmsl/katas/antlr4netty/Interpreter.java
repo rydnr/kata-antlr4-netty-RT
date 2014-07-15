@@ -59,7 +59,11 @@ public class Interpreter
     /**
      * The operation to evaluate.
      */
-    private
+    private String operation;
+
+    /**
+     * Creates a new instance to
+     */
     /**
      * Evaluates the operation.
      * @return the result of the operation.
