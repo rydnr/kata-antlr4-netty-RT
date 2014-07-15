@@ -80,7 +80,7 @@ public class Interpreter
     {
         @NotNull final InterpreterParser result;
 
-        @NotNull final InterpreterTemplateDefLexer t_Lexer = new InterpreterLexer(stream);
+        @NotNull final InterpreterLexer t_Lexer = new InterpreterLexer(stream);
 
         @NotNull final CommonTokenStream t_Tokens = new CommonTokenStream(t_Lexer);
 
