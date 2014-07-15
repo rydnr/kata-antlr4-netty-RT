@@ -46,6 +46,9 @@ import org.jetbrains.annotations.NotNull;
 import org.junit.Assert;
 import org.junit.Test;
 
+/*
+ * Importing JDK classes.
+ */
 import java.math.BigDecimal;
 
 /**
