@@ -41,7 +41,7 @@ grammar Interpreter;
 @parser::header
 {
 /*
-                        QueryJ Debugging
+                        Interpreter
 
     Copyright (C) 2002-today  Jose San Leandro Armendariz
                         chous@acm-sl.org
