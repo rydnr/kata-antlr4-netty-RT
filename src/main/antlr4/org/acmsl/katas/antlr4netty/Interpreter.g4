@@ -135,7 +135,6 @@ op : OPERATOR;
 
 WS : ( '\t' | ' ' | '\r' | '\n'| '\u000C' )+ -> skip;
 
-// keywords
-RELOAD: 'reload';
+NUMBER: 'reload';
 NEXT: 'next';
 PREV : 'prev';
