@@ -29,7 +29,7 @@
 
  ******************************************************************************
  *
- * Filename: TemplateDebugging.g4
+ * Filename: Interpreter.g4
  *
  * Author: Jose San Leandro Armendariz
  *
