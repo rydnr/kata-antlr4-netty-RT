@@ -126,7 +126,7 @@ grammar Interpreter;
 
 command : exp op exp;
 
-exp : RELOAD;
+exp : exp | ;
 nextTable: NEXT;
 prevTable: PREV;
 
