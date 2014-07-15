@@ -59,6 +59,6 @@ public class InterpreterTest
     {
         @NotNull final Interpreter interpreter = new Interpreter();
 
-        Assert.assertEquals(3, interpreter.eval());
+        Assert.assertEquals(3, interpreter.eval("1+2"));
     }
 }
