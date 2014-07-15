@@ -44,6 +44,7 @@ import org.jetbrains.annotations.NotNull;
  * Importing checkthread.org annotations.
  */
 import org.checkthread.annotations.ThreadSafe;
+import org.junit.Test;
 
 /**
  * Tests for {@link Interpreter} class.
@@ -54,4 +55,6 @@ import org.checkthread.annotations.ThreadSafe;
 @ThreadSafe
 public class InterpreterTest
 {
+    @Test
+    public void
 }
