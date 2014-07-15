@@ -59,12 +59,6 @@ import java.math.BigDecimal;
 public class Interpreter
 {
     /**
-     * The operation to evaluate.
-     */
-    @NotNull
-    private final String operation;
-
-    /**
      * Creates a new instance to evaluate given operation.
      * @param op the operation to evaluate.
      */
