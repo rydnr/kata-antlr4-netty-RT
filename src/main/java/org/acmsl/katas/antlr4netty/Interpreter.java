@@ -62,8 +62,13 @@ public class Interpreter
     private String operation;
 
     /**
-     * Creates a new instance to
+     * Creates a new instance to evaluate given operation.
+     * @param op the operation to evaluate.
      */
+    public Interpreter(@NotNull final String op)
+    {
+
+    }
     /**
      * Evaluates the operation.
      * @return the result of the operation.
