@@ -107,7 +107,10 @@ public class Interpreter
                     @NotNull final String operator = ctx.getChild(1).getText();
                     @NotNull final String right = ctx.getChild(2).getText();
 
-                    if ("+".equals(operator)
+                    if ("+".equals(operator))
+                    {
+
+                    }
                     System.out.println("Intercepted [" + left + ", " + operator + ", " + right + "]");
 
                     return new BigDecimal("3");
