@@ -111,8 +111,10 @@ public class Interpreter
 
                     if ("+".equals(operator))
                     {
-
+                        result = left.add(right);
                     }
+                    else
+
                     System.out.println("Intercepted [" + left + ", " + operator + ", " + right + "]");
 
                     return new BigDecimal("3");
