@@ -9,6 +9,9 @@
   <version>latest-SNAPSHOT</version>
   <name>Netty server for a custom ANTLR4 interpreter</name>
 
+  <properties>
+
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.antlr</groupId>
