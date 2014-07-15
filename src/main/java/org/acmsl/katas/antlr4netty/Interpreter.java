@@ -89,7 +89,7 @@ public class Interpreter
      * @return the result of the operation.
      */
     @NotNull
-    public BigDecimal eval()
+    public BigDecimal eval(@NotNull final String operation)
     {
         return null;
     }
