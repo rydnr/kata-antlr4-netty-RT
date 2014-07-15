@@ -27,7 +27,7 @@
  *
  * Author: Jose San Leandro Armendariz
  *
- * Description: 
+ * Description: Interpreter to perform basic arithmetic calculations.
  *
  * Date: 2014/07/15
  * Time: 08:09
