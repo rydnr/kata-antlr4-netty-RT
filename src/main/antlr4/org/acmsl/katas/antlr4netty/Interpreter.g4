@@ -111,7 +111,7 @@ grammar Interpreter;
 
  ******************************************************************************
  *
- * Generated from TemplateDebugging.g4 by ANTLR.
+ * Generated from Interpreter.g4 by ANTLR.
  *
  * Author: Jose San Leandro Armendariz
  *
