@@ -76,7 +76,7 @@ public class Interpreter
      *
      */
     @NotNull
-    protected InterpreterParser setupParser()
+    protected InterpreterParser setupParser(@NotNull final String input)
     {
         @NotNull final InterpreterParser result;
 
