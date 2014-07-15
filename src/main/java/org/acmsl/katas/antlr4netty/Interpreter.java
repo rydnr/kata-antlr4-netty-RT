@@ -67,7 +67,7 @@ public class Interpreter
      */
     public Interpreter(@NotNull final String op)
     {
-
+        this.operation = op;
     }
     /**
      * Evaluates the operation.
