@@ -59,7 +59,8 @@ public class Interpreter
     /**
      * The operation to evaluate.
      */
-    private String operation;
+    @NotNull
+    private final String operation;
 
     /**
      * Creates a new instance to evaluate given operation.
