@@ -81,7 +81,7 @@ public class Interpreter
     {
         @NotNull final InterpreterParser result;
 
-        @NotNull final InterpreterLexer t_Lexer = new InterpreterLexer(new ANTLRInputStream());
+        @NotNull final InterpreterLexer t_Lexer = new InterpreterLexer(new ANTLRInputStream(input));
 
         @NotNull final CommonTokenStream t_Tokens = new CommonTokenStream(t_Lexer);
 
