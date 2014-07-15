@@ -96,6 +96,7 @@ public class Interpreter
 
         ParseTree tree = parser.command();
 
+        return
         new InterpreterBaseVisitor<BigDecimal>()
         {
             @Override
@@ -110,7 +111,5 @@ public class Interpreter
                 return new BigDecimal("3");
             }
         }.visit(tree);
-
-        return new BigDecimal("3");
     }
 }
