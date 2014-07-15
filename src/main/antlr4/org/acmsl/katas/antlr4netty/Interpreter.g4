@@ -127,7 +127,7 @@ grammar Interpreter;
 command : exp op exp;
 
 exp : NUM;
-nextTable: NEXT;
+op : OPERATOR;
 prevTable: PREV;
 
 /*------------------------------------------------------------------
