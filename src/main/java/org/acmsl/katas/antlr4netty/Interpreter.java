@@ -56,7 +56,9 @@ import java.math.BigDecimal;
 @ThreadSafe
 public class Interpreter
 {
-
+    /**
+     * The
+     */
     /**
      * Evaluates the operation.
      * @return the result of the operation.
