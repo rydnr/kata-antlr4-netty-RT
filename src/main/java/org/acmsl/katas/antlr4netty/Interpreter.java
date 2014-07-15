@@ -114,6 +114,9 @@ public class Interpreter
                         result = left.add(right);
                     }
                     else
+                    {
+                        result = null;
+                    }
 
                     System.out.println("Intercepted [" + left + ", " + operator + ", " + right + "]");
 
