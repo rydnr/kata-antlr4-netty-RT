@@ -99,7 +99,7 @@ public class Interpreter
                 @Override
                 public void exitCommand(@org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
                 {
-                    @NotNull final String opctx.getChild(1).getText()
+                    @NotNull final String expr1 = ctx.getChild(1).getText()
                 }
             }
         );
