@@ -85,6 +85,7 @@ public class Interpreter
     }
     /**
      * Evaluates the operation.
+     * @param operation the operation to evaluate.
      * @return the result of the operation.
      */
     @NotNull
