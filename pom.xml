@@ -57,7 +57,7 @@
       <plugin>
         <groupId>org.antlr</groupId>
         <artifactId>antlr4-maven-plugin</artifactId>
-        <version></version>
+        <version>4.3</version>
         <goals>
           <goal>antlr4</goal>
         </goals>
