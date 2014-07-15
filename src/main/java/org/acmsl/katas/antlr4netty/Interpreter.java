@@ -99,7 +99,10 @@ public class Interpreter
                 @Override
                 public void exitCommand(@org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
                 {
-                    @NotNull final String expr1 = ctx.getChild(1).getText()
+                    @NotNull final String left = ctx.getChild(1).getText();
+                    @NotNull final String operator = ctx.getChild(2).getText();
+                    @NotNull final String right = ctx.getChild(3).getText();
+                    System.out.println("Intercepted [" + left + ", " + );
                 }
             }
         );
