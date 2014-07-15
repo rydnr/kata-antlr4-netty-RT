@@ -38,6 +38,7 @@ package org.acmsl.katas.antlr4netty;
 /*
  * Importing JetBrains annotations.
  */
+import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.jetbrains.annotations.NotNull;
 
@@ -80,7 +81,7 @@ public class Interpreter
     {
         @NotNull final InterpreterParser result;
 
-        @NotNull final InterpreterLexer t_Lexer = new InterpreterLexer(new input);
+        @NotNull final InterpreterLexer t_Lexer = new InterpreterLexer(new ANTLRInputStream());
 
         @NotNull final CommonTokenStream t_Tokens = new CommonTokenStream(t_Lexer);
 
