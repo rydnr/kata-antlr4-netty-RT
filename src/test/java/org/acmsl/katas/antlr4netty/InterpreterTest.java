@@ -38,9 +38,8 @@ package org.acmsl.katas.antlr4netty;
 /*
  * Importing JetBrains annotations.
  */
+import org.checkthread.annotations.ThreadSafe;
 import org.jetbrains.annotations.NotNull;
-
-import org.junit.Test;
 
 /*
  * Importing JUnit classes.
