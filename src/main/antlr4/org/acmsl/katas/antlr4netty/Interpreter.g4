@@ -135,6 +135,6 @@ op : OPERATOR;
 
 WS : ( '\t' | ' ' | '\r' | '\n'| '\u000C' )+ -> skip;
 
-NUMBER: 'reload';
+NUMBER: '0'..'9';
 NEXT: 'next';
 PREV : 'prev';
