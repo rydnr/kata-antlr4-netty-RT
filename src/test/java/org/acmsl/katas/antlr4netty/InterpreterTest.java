@@ -38,6 +38,7 @@ package org.acmsl.katas.antlr4netty;
 /*
  * Importing JetBrains annotations.
  */
+import junit.framework.Assert;
 import org.jetbrains.annotations.NotNull;
 
 /*
@@ -59,5 +60,7 @@ public class InterpreterTest
     public void interpreter_sums_positive_integers()
     {
         @NotNull final Interpreter interpreter = new Interpreter("1+2");
+
+        Assert.assertEquals();
     }
 }
