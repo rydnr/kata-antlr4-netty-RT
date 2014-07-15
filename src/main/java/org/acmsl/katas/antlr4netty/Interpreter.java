@@ -74,7 +74,7 @@ public class Interpreter
     }
 
     /**
-     *
+     * Processes given input.
      */
     @NotNull
     protected InterpreterParser setupParser(@NotNull final String input)
