@@ -91,6 +91,8 @@ public class Interpreter
     @NotNull
     public BigDecimal eval(@NotNull final String operation)
     {
-        return null;
+        InterpreterParser parser = setupParser(operation);
+
+
     }
 }
