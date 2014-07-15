@@ -10,7 +10,7 @@
   <name>Netty server for a custom ANTLR4 interpreter</name>
 
   <properties>
-    <project.build.sourceEncoding></project.build.sourceEncoding>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
     <dependency>
