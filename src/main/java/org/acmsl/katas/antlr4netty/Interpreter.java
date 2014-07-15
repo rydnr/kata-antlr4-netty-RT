@@ -96,6 +96,7 @@ public class Interpreter
 
         ParseTree tree = parser.command();
 
+
         parser.addParseListener(
             new InterpreterBaseListener()
             {
