@@ -124,7 +124,7 @@ grammar Interpreter;
  * PARSER RULES
  *------------------------------------------------------------------*/
 
-command : ex;
+command : exp ;
 
 reload : RELOAD;
 nextTable: NEXT;
