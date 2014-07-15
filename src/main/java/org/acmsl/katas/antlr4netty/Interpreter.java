@@ -96,7 +96,7 @@ public class Interpreter
 
         ParseTree tree = parser.command();
 
-            new InterpreterBaseListener()
+            new InterpreterBaseVisitor()
             {
                 @Override
                 public void exitCommand(@org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
