@@ -56,6 +56,9 @@ import java.math.BigDecimal;
  */
 public class InterpreterTest
 {
+    /**
+     * Checks whether the interpreter sums
+     */
     @Test
     public void interpreter_sums_positive_single_digit_integers()
     {
