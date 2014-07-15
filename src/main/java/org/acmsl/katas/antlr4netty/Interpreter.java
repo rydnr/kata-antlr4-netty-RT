@@ -84,7 +84,7 @@ public class Interpreter
 
         @NotNull final CommonTokenStream t_Tokens = new CommonTokenStream(t_Lexer);
 
-        result = new TemplateDefParser(t_Tokens);
+        result = new InterpreterTemplateDefParser(t_Tokens);
 
         return result;
 
