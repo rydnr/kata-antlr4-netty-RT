@@ -56,7 +56,11 @@ import java.math.BigDecimal;
 @ThreadSafe
 public class Interpreter
 {
-
+    /**
+     * Evaluates
+     * @return
+     */
+    @NotNull
     public BigDecimal eval()
     {
         return null;  //To change body of created methods use File | Settings | File Templates.
