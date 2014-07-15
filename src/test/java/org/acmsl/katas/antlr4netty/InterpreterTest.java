@@ -57,4 +57,7 @@ public class InterpreterTest
 {
     @Test
     public void interpreter_sums_positive_integers()
+    {
+
+    }
 }
