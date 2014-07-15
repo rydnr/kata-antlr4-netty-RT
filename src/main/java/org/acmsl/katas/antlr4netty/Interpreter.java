@@ -78,7 +78,7 @@ public class Interpreter
     @NotNull
     protected IntepreterParser setupParser()
     {
-        @NotNull final TemplateDefParser result;
+        @NotNull final InterpreterParser result;
 
         @NotNull final TemplateDefLexer t_Lexer = new TemplateDefLexer(stream);
 
