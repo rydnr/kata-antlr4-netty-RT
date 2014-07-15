@@ -72,6 +72,8 @@
           <outputDirectory>${project.build.directory}/generated-sources/</outputDirectory>
         </configuration>
       </plugin>
+
+
    </plugins>
   </build>
 
