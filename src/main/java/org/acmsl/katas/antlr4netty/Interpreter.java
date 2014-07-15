@@ -97,7 +97,7 @@ public class Interpreter
             new InterpreterBaseListener()
             {
                 @Override
-                public void exitCommand()
+                public void exitCommand(@NotNull final )
             }
         );
     }
