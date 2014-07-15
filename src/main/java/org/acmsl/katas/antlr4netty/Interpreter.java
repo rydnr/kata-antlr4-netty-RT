@@ -95,6 +95,9 @@ public class Interpreter
 
         parser.addParseListener(
             new InterpreterBaseListener()
+            {
+
+            }
         );
     }
 }
