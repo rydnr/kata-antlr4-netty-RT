@@ -33,7 +33,7 @@
  *
  * Author: Jose San Leandro Armendariz
  *
- * Description: Defines a
+ * Description: Defines a very simple interpreter.
  *              QueryJ.
  *
  */
