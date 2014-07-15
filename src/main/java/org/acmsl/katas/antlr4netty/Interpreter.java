@@ -96,18 +96,18 @@ public class Interpreter
 
         ParseTree tree = parser.command();
 
-            new InterpreterBaseVisitor<BigDecimal>()
+        new InterpreterBaseVisitor<BigDecimal>()
+        {
+            @Override
+            public BigDecimal visitCommand(
+                @org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
             {
-                @Override
-                public BigDecimal visitCommand(
-                    @org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
-                {
-                    @NotNull final String left = ctx.getChild(1).getText();
-                    @NotNull final String operator = ctx.getChild(2).getText();
-                    @NotNull final String right = ctx.getChild(3).getText();
-                    System.out.println("Intercepted [" + left + ", " + operator + ", " + right + "]");
-                }
+                @NotNull final String left = ctx.getChild(1).getText();
+                @NotNull final String operator = ctx.getChild(2).getText();
+                @NotNull final String right = ctx.getChild(3).getText();
+                System.out.println("Intercepted [" + left + ", " + operator + ", " + right + "]");
             }
+        }.visit()
         );
 
         parser.p
