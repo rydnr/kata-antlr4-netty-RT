@@ -62,6 +62,6 @@ public class InterpreterTest
         @NotNull final Interpreter interpreter = new Interpreter();
 
         Assert.assertEquals(new BigDecimal("3"), interpreter.eval("1+2"));
-        Assert.assertEquals(new BigDecimal("3"), interpreter.eval("1+2"));
+        Assert.assertEquals(new BigDecimal("13"), interpreter.eval("1+2"));
     }
 }
