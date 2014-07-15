@@ -56,5 +56,5 @@ import org.junit.Test;
 public class InterpreterTest
 {
     @Test
-    public void
+    public void inte
 }
