@@ -46,6 +46,8 @@ import org.jetbrains.annotations.NotNull;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.math.BigDecimal;
+
 /**
  * Tests for {@link Interpreter} class.
  * @author <a href="mailto:rydner@acm-sl.org">Jose San Leandro</a>
@@ -59,6 +61,6 @@ public class InterpreterTest
     {
         @NotNull final Interpreter interpreter = new Interpreter();
 
-        Assert.assertEquals(3, interpreter.eval("1+2"));
+        Assert.assertEquals(new BigDecimal("3"), interpreter.eval("1+2"));
     }
 }
