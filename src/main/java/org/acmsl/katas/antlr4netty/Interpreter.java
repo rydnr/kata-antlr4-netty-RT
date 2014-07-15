@@ -38,6 +38,7 @@ package org.acmsl.katas.antlr4netty;
 /*
  * Importing JetBrains annotations.
  */
+import org.antlr.v4.runtime.CommonTokenStream;
 import org.jetbrains.annotations.NotNull;
 
 /*
@@ -76,6 +77,18 @@ public class Interpreter
      */
     @NotNull
     protected IntepreterParser setupParser()
+    {
+        @NotNull final TemplateDefParser result;
+
+        @NotNull final TemplateDefLexer t_Lexer = new TemplateDefLexer(stream);
+
+        @NotNull final CommonTokenStream t_Tokens = new CommonTokenStream(t_Lexer);
+
+        result = new TemplateDefParser(t_Tokens);
+
+        return result;
+
+    }
     /**
      * Evaluates the operation.
      * @return the result of the operation.
