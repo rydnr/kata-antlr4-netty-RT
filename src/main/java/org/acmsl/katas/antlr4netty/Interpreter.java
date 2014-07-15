@@ -106,6 +106,8 @@ public class Interpreter
                 @NotNull final String operator = ctx.getChild(2).getText();
                 @NotNull final String right = ctx.getChild(3).getText();
                 System.out.println("Intercepted [" + left + ", " + operator + ", " + right + "]");
+
+                return
             }
         }.visit(tree);
 
