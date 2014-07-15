@@ -57,7 +57,7 @@ import java.math.BigDecimal;
 public class Interpreter
 {
     /**
-     * Evaluates
+     * Evaluates the
      * @return
      */
     @NotNull
