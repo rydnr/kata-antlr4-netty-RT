@@ -27,7 +27,7 @@
  *
  * Author: Jose San Leandro Armendariz
  *
- * Description: 
+ * Description: Tests for Interpreter class.
  *
  * Date: 2014/07/15
  * Time: 08:06
