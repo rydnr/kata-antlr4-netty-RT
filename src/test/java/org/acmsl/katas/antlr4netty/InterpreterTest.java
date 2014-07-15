@@ -57,7 +57,7 @@ import java.math.BigDecimal;
 public class InterpreterTest
 {
     @Test
-    public void interpreter_sums_positive_integers()
+    public void interpreter_sums_positive_single_digit_integers()
     {
         @NotNull final Interpreter interpreter = new Interpreter();
 
