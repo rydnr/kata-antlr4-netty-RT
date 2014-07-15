@@ -47,7 +47,7 @@ import org.checkthread.annotations.ThreadSafe;
 
 /**
  * Tests for {@link Interpreter} class.
- * @author <a href="mailto:queryj@acm-sl.org">Jose San Leandro</a>
+ * @author <a href="mailto:@acm-sl.org">Jose San Leandro</a>
  * @since 3.0
  * Created: 2014/07/15 08:06
  */
