@@ -40,10 +40,6 @@ package org.acmsl.katas.antlr4netty;
  */
 import org.jetbrains.annotations.NotNull;
 
-/*
- * Importing checkthread.org annotations.
- */
-import org.checkthread.annotations.ThreadSafe;
 import org.junit.Test;
 
 /*
