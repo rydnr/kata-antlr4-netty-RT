@@ -74,7 +74,7 @@ grammar Interpreter;
  *
  * Author: Jose San Leandro Armendariz
  *
- * Description: ANTLR parser for TemplateDebugging.g4
+ * Description: ANTLR parser for Interpreter.g4
  *
  */
 }
