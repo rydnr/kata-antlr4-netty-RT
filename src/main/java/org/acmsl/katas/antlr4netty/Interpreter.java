@@ -107,6 +107,6 @@ public class Interpreter
             }
         );
 
-        return null;
+        return new BigDecimal();
     }
 }
