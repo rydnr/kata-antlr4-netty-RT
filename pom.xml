@@ -10,7 +10,7 @@
   <name>Netty server for a custom ANTLR4 interpreter</name>
 
   <properties>
-    <project.
+    <project.build.
   </properties>
   <dependencies>
     <dependency>
