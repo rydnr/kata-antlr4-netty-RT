@@ -38,7 +38,6 @@ package org.acmsl.katas.antlr4netty;
 /*
  * Importing JetBrains annotations.
  */
-import junit.framework.Assert;
 import org.jetbrains.annotations.NotNull;
 
 /*
