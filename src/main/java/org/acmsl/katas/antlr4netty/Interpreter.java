@@ -99,7 +99,8 @@ public class Interpreter
             new InterpreterBaseVisitor<BigDecimal>()
             {
                 @Override
-                public BigDecimal visitCommand(@org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
+                public BigDecimal visitCommand(
+                    @org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
                 {
                     @NotNull final String left = ctx.getChild(1).getText();
                     @NotNull final String operator = ctx.getChild(2).getText();
