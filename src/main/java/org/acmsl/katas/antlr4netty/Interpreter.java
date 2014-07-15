@@ -57,8 +57,8 @@ import java.math.BigDecimal;
 public class Interpreter
 {
     /**
-     * Evaluates the o
-     * @return
+     * Evaluates the operation.
+     * @return the result of the operation.
      */
     @NotNull
     public BigDecimal eval()
