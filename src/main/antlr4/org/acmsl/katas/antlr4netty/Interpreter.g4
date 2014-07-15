@@ -34,10 +34,9 @@
  * Author: Jose San Leandro Armendariz
  *
  * Description: Defines a very simple interpreter.
- *              QueryJ.
  *
  */
-grammar TemplateDebugging;
+grammar Interpreter;
 
 @parser::header
 {
