@@ -58,6 +58,6 @@ public class InterpreterTest
     @Test
     public void interpreter_sums_positive_integers()
     {
-        @NotNull final Interpreter interpreter = new Interpreter()
+        @NotNull final Interpreter interpreter = new Interpreter(
     }
 }
