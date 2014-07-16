@@ -70,6 +70,7 @@ public class InterpreterTest
         Assert.assertEquals(new BigDecimal("3"), interpreter.eval("1+2"));
         Assert.assertEquals(new BigDecimal("10"), interpreter.eval("1+9"));
     }
+
     /**
      * Checks whether the interpreter sums positive, single-digit integers, correctly.
      */
