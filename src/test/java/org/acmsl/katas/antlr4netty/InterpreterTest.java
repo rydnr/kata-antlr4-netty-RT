@@ -87,7 +87,7 @@ public class InterpreterTest
      * Checks whether the interpreter sums positive, double-digit integers, correctly.
      */
     @Test
-    public void interpreter_sums_positive_single_digit_integers()
+    public void interpreter_sums_positive_double_digit_integers()
     {
         @NotNull final Interpreter interpreter = new Interpreter();
 
