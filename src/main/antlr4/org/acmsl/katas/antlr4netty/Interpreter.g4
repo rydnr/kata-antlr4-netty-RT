@@ -139,4 +139,4 @@ NUMBER: ('-')? POSITIVE_NUMBER;
 
 OPERATOR: '+' | '-';
 
-fragment
+fragment POSITIVE_NUMBER : ('0'..'9')+;
