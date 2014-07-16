@@ -124,7 +124,7 @@ public class InterpreterTest
      * Checks whether the interpreter sums real numbers correctly.
      */
     @Test
-    public void interpreter_performs_negative_plus_positive_integers()
+    public void interpreter_sums_real_numbers()
     {
         @NotNull final Interpreter interpreter = new Interpreter();
 
