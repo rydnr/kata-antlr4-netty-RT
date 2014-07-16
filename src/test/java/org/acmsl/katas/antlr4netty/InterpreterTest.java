@@ -116,6 +116,6 @@ public class InterpreterTest
         @NotNull final Interpreter interpreter = new Interpreter();
 
         Assert.assertEquals(new BigDecimal("29"), interpreter.eval("-13+42"));
-        Assert.assertEquals(new BigDecimal("66"), interpreter.eval("85-19"));
+        Assert.assertEquals(new BigDecimal("66"), interpreter.eval("85-19+85"));
     }
 }
