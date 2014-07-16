@@ -94,5 +94,4 @@ public class InterpreterTest
         Assert.assertEquals(new BigDecimal("41"), interpreter.eval("12+29"));
         Assert.assertEquals(new BigDecimal("102"), interpreter.eval("17+85"));
     }
-
 }
