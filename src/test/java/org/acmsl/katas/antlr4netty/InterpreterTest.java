@@ -75,7 +75,7 @@ public class InterpreterTest
      * Checks whether the interpreter substracts positive, single-digit integers, correctly.
      */
     @Test
-    public void interpreter_sums_negative_single_digit_integers()
+    public void interpreter_substracts_positive_single_digit_integers()
     {
         @NotNull final Interpreter interpreter = new Interpreter();
 
