@@ -82,4 +82,17 @@ public class InterpreterTest
         Assert.assertEquals(new BigDecimal("4"), interpreter.eval("4-0"));
         Assert.assertEquals(new BigDecimal("3"), interpreter.eval("5-2"));
     }
+
+    /**
+     * Checks whether the interpreter sums positive, single-digit integers, correctly.
+     */
+    @Test
+    public void interpreter_sums_positive_single_digit_integers()
+    {
+        @NotNull final Interpreter interpreter = new Interpreter();
+
+        Assert.assertEquals(new BigDecimal("3"), interpreter.eval("1+2"));
+        Assert.assertEquals(new BigDecimal("10"), interpreter.eval("1+9"));
+    }
+
 }
