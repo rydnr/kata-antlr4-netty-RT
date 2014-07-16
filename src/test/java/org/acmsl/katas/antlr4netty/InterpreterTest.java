@@ -106,4 +106,16 @@ public class InterpreterTest
         Assert.assertEquals(new BigDecimal("19"), interpreter.eval("31-12"));
         Assert.assertEquals(new BigDecimal("66"), interpreter.eval("85-19"));
     }
+
+    /**
+     * Checks whether the interpreter subtracts positive, double-digit integers, correctly.
+     */
+    @Test
+    public void interpreter_subtracts_positive_double_digit_integers()
+    {
+        @NotNull final Interpreter interpreter = new Interpreter();
+
+        Assert.assertEquals(new BigDecimal("19"), interpreter.eval("31-12"));
+        Assert.assertEquals(new BigDecimal("66"), interpreter.eval("85-19"));
+    }
 }
