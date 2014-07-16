@@ -99,10 +99,9 @@ public class Interpreter
         return
             new InterpreterBaseVisitor<BigDecimal>()
             {
+
                 /**
                  * {@inheritDoc}
-                 * @param ctx
-                 * @return
                  */
                 @Override
                 public BigDecimal visitCommand(
