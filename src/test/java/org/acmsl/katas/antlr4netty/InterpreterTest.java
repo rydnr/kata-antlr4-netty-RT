@@ -118,4 +118,17 @@ public class InterpreterTest
         Assert.assertEquals(new BigDecimal("29"), interpreter.eval("-13+42"));
         Assert.assertEquals(new BigDecimal("66"), interpreter.eval("-19+85"));
     }
+
+
+    /**
+     * Checks whether the interpreter performs negative plus positive operations correctly.
+     */
+    @Test
+    public void interpreter_performs_negative_plus_positive_integers()
+    {
+        @NotNull final Interpreter interpreter = new Interpreter();
+
+        Assert.assertEquals(new BigDecimal("29"), interpreter.eval("-13+42"));
+        Assert.assertEquals(new BigDecimal("66"), interpreter.eval("-19+85"));
+    }
 }
