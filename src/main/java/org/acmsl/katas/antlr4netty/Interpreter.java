@@ -125,7 +125,7 @@ public class Interpreter
                     {
                         // the operator is missing -> implicit in right operand
                         @NotNull final BigDecimal right = new BigDecimal(ctx.getChild(1).getText());
-                        result = null;
+                        result = left.add(right);
                     }
 
                     return result;
