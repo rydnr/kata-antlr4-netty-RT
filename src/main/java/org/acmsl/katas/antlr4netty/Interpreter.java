@@ -99,17 +99,6 @@ public class Interpreter
         return
             new InterpreterBaseVisitor<BigDecimal>()
             {
-                @NotNull
-                protected BigDecimal retrieveLeftOperand(
-                    @org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
-                {
-                    @NotNull final BigDecimal result;
-
-                    result = new BigDecimal("3");
-
-                    return result;
-                }
-
                 /**
                  * {@inheritDoc}
                  */
