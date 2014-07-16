@@ -118,6 +118,7 @@ public class Interpreter
                     }
                     else if ("-".equals(operator))
                     {
+                        @NotNull final BigDecimal right = new BigDecimal(ctx.getChild(2).getText());
                         result = left.subtract(right);
                     }
                     else
