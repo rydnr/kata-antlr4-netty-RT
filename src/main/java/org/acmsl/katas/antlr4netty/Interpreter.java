@@ -115,7 +115,7 @@ public class Interpreter
                     }
                     else if ("-".equals(operator))
                     {
-                        result = null;
+                        result = left.subtract(right);
                     }
 
                     return result;
