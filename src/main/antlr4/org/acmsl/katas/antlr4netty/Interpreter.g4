@@ -135,7 +135,7 @@ op : OPERATOR;
 
 WS : ( '\t' | ' ' | '\r' | '\n'| '\u000C' )+ -> skip;
 
-NUMBER: ('-')? POSITIVE_INTEGER;
+NUMBER: ('-')? POSITIVE_NUMBER;
 
 OPERATOR: '+' | '-';
 
