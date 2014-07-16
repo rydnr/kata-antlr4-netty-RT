@@ -111,7 +111,7 @@ public class InterpreterTest
      * Checks whether the interpreter performs positive minus positive operations correctly.
      */
     @Test
-    public void interpreter_subtracts_positive_double_digit_integers()
+    public void interpreter_performs_positive_minus_positivesubtracts_positive_double_digit_integers()
     {
         @NotNull final Interpreter interpreter = new Interpreter();
 
