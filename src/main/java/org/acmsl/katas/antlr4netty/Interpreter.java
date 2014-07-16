@@ -117,6 +117,10 @@ public class Interpreter
                     {
                         result = left.subtract(right);
                     }
+                    else
+                    {
+                        result = null;
+                    }
 
                     return result;
                 }
