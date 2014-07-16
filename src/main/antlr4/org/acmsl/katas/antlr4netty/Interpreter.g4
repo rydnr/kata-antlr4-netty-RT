@@ -124,7 +124,7 @@ grammar Interpreter;
  * PARSER RULES
  *------------------------------------------------------------------*/
 
-command : exp op exp;
+command : exp op? exp;
 
 exp : NUMBER;
 op : OPERATOR;
