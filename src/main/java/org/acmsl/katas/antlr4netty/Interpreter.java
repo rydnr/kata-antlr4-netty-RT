@@ -99,7 +99,7 @@ public class Interpreter
         return
             new InterpreterBaseVisitor<BigDecimal>()
             {
-                protected
+                protected BigDecimal retrieveLeftOperand()
                 /**
                  * {@inheritDoc}
                  */
