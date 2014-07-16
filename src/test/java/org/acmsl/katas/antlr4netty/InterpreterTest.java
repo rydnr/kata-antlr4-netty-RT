@@ -80,6 +80,6 @@ public class InterpreterTest
         @NotNull final Interpreter interpreter = new Interpreter();
 
         Assert.assertEquals(new BigDecimal("3"), interpreter.eval("4-1"));
-        Assert.assertEquals(new BigDecimal("10"), interpreter.eval("5-9"));
+        Assert.assertEquals(new BigDecimal("10"), interpreter.eval("5-2"));
     }
 }
