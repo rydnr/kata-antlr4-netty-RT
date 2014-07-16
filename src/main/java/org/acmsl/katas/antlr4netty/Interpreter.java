@@ -110,7 +110,6 @@ public class Interpreter
 
                     @NotNull final BigDecimal left = new BigDecimal(ctx.getChild(0).getText());
                     @NotNull final String operator = ctx.getChild(1).getText();
-                    @NotNull final BigDecimal right = new BigDecimal(ctx.getChild(2).getText());
 
                     if ("+".equals(operator))
                     {
