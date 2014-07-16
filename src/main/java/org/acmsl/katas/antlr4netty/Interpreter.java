@@ -113,7 +113,7 @@ public class Interpreter
                     {
                         result = left.add(right);
                     }
-                    else
+                    else if ("-".equals(operator))
                     {
                         result = null;
                     }
