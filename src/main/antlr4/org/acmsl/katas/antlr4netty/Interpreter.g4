@@ -138,3 +138,5 @@ WS : ( '\t' | ' ' | '\r' | '\n'| '\u000C' )+ -> skip;
 NUMBER: ('-')? POSITIVE_NUMBER;
 
 OPERATOR: '+' | '-';
+
+fragment
