@@ -123,7 +123,8 @@ public class Interpreter
                     }
                     else
                     {
-                        @NotNull final BigDecimal right = new BigDecimal(ctx.getChild(2).getText());
+                        // the operator is missing -> implicit in right operand
+                        @NotNull final BigDecimal right = new BigDecimal(ctx.getChild(1).getText());
                         result = null;
                     }
 
