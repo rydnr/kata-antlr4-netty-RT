@@ -94,4 +94,16 @@ public class InterpreterTest
         Assert.assertEquals(new BigDecimal("41"), interpreter.eval("12+29"));
         Assert.assertEquals(new BigDecimal("102"), interpreter.eval("17+85"));
     }
+
+    /**
+     * Checks whether the interpreter sums positive, double-digit integers, correctly.
+     */
+    @Test
+    public void interpreter_sums_positive_double_digit_integers()
+    {
+        @NotNull final Interpreter interpreter = new Interpreter();
+
+        Assert.assertEquals(new BigDecimal("41"), interpreter.eval("12+29"));
+        Assert.assertEquals(new BigDecimal("102"), interpreter.eval("17+85"));
+    }
 }
