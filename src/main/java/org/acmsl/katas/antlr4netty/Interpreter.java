@@ -123,6 +123,7 @@ public class Interpreter
                     }
                     else
                     {
+                        @NotNull final BigDecimal right = new BigDecimal(ctx.getChild(2).getText());
                         result = null;
                     }
 
