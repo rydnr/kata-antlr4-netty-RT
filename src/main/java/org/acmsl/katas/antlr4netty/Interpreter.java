@@ -105,6 +105,7 @@ public class Interpreter
                 {
                     @NotNull final BigDecimal result;
 
+                    result = new BigDecimal("3");
 
                     return result;
                 }
