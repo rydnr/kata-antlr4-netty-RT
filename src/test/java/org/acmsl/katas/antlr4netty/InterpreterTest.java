@@ -111,7 +111,7 @@ public class InterpreterTest
      * Checks whether the interpreter performs negative plus positive operations correctly.
      */
     @Test
-    public void interpreter_performs_positive_minus_positive_integers()
+    public void interpreter_performs_negative_plus_positive_integers()
     {
         @NotNull final Interpreter interpreter = new Interpreter();
 
