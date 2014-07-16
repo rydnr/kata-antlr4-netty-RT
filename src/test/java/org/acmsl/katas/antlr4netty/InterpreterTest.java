@@ -108,7 +108,7 @@ public class InterpreterTest
     }
 
     /**
-     * Checks whether the interpreter performs positive minus positive operations correctly.
+     * Checks whether the interpreter performs negative plus positive operations correctly.
      */
     @Test
     public void interpreter_performs_positive_minus_positive_integers()
