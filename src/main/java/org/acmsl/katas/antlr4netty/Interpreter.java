@@ -103,8 +103,11 @@ public class Interpreter
                 protected BigDecimal retrieveLeftOperand(
                     @org.antlr.v4.runtime.misc.NotNull final InterpreterParser.CommandContext ctx)
                 {
+                    @NotNull final BigDecimal result;
 
+                    return result;
                 }
+
                 /**
                  * {@inheritDoc}
                  */
