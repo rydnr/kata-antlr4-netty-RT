@@ -72,7 +72,7 @@ public class InterpreterTest
     }
 
     /**
-     * Checks whether the interpreter sums positive, single-digit integers, correctly.
+     * Checks whether the interpreter sums negative, single-digit integers, correctly.
      */
     @Test
     public void interpreter_sums_positive_single_digit_integers()
