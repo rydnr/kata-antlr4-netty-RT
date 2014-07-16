@@ -61,7 +61,6 @@ public class Interpreter
 {
     /**
      * Creates a new instance to evaluate given operation.
-     * @param op the operation to evaluate.
      */
     public Interpreter()
     {
