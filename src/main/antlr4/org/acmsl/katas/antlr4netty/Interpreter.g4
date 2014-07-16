@@ -135,5 +135,6 @@ op : OPERATOR;
 
 WS : ( '\t' | ' ' | '\r' | '\n'| '\u000C' )+ -> skip;
 
-NUMBER: ('-')? POSITIVE_NUMBER('0'..'9')+;
+NUMBER: ('-')? POSITIVE_NUMBER;
+
 OPERATOR: '+' | '-';
