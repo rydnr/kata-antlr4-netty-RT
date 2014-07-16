@@ -144,3 +144,4 @@ fragment POSITIVE_NUMBER :
   | POSITIVE_REAL;
 
 fragment POSITIVE_INTEGER : ('0'..'9')+;
+fragment POSITIVE_REAL :
