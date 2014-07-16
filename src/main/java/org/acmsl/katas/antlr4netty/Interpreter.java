@@ -113,6 +113,7 @@ public class Interpreter
 
                     if ("+".equals(operator))
                     {
+                        @NotNull final BigDecimal right = new BigDecimal(ctx.getChild(2).getText());
                         result = left.add(right);
                     }
                     else if ("-".equals(operator))
