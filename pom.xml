@@ -111,6 +111,7 @@
             <configuration>
               <onejarVersion>0.97</onejarVersion>
             </configuration>
+
           </execution>
         </executions>
       </plugin>
