@@ -109,7 +109,7 @@
             <id>default-execution</id>
             <phase>package</phase>
             <configuration>
-
+              <onejar
             </configuration>
           </execution>
         </executions>
