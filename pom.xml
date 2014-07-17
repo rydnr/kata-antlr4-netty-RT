@@ -112,7 +112,7 @@
               <onejarVersion>0.97</onejarVersion>
             </configuration>
             <goals>
-              <goal>one</goal>
+              <goal>one-jar</goal>
             </goals>
           </execution>
         </executions>
