@@ -101,6 +101,9 @@
       </plugin>
 
       <plugin>
+
+      </plugin>
+      <plugin>
         <groupId>org.dstovall</groupId>
         <artifactId>onejar-maven-plugin</artifactId>
         <version>1.4.5</version>
