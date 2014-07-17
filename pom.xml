@@ -101,7 +101,8 @@
       </plugin>
 
       <plugin>
-        <groupId>org.dstova</groupId>
+        <groupId>org.dstovall</groupId>
+        <artifactId></artifactId>
       </plugin>
 
     </plugins>
