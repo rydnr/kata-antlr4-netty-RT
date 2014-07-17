@@ -109,7 +109,7 @@
             <id>default-execution</id>
             <phase>package</phase>
             <configuration>
-              <onejar
+              <onejarVersion>0.97</onejarVersion>
             </configuration>
           </execution>
         </executions>
