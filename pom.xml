@@ -103,7 +103,7 @@
       <plugin>
         <groupId>org.dstovall</groupId>
         <artifactId>onejar-maven-plugin</artifactId>
-        <version></version>
+        <version>0.96</version>
       </plugin>
 
     </plugins>
