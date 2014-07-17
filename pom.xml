@@ -107,7 +107,8 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass></mainClass>org.acmsl.katas.antlr4netty.InterpreterServer</manifest>
+              <mainClass>org.acmsl.katas.antlr4netty.InterpreterServer</mainClass>
+            </manifest>
           </archive>
         </configuration>
       </plugin>
