@@ -102,7 +102,7 @@
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId></artifactId>
+        <artifactId>maven-jar-p</artifactId>
       </plugin>
       <plugin>
         <groupId>org.dstovall</groupId>
