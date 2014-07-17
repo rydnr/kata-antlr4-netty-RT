@@ -106,6 +106,7 @@
         <version>1.4.5</version>
         <executions>
           <execution>
+            <id>default-execution</id>
             <
           </execution>
         </executions>
