@@ -106,7 +106,7 @@
         <version>2.3.2</version>
         <configuration>
           <archive>
-            <manifest></manifest>
+            <manifest>org.acmsl</manifest>
           </archive>
         </configuration>
       </plugin>
