@@ -103,7 +103,8 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version></version>
+        <version>2.3.2</version>
+
       </plugin>
       <plugin>
         <groupId>org.dstovall</groupId>
