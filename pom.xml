@@ -112,7 +112,7 @@
               <onejarVersion>0.97</onejarVersion>
             </configuration>
             <goals>
-              <g
+              <goal>one</goal>
             </goals>
           </execution>
         </executions>
