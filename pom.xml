@@ -101,7 +101,7 @@
       </plugin>
 
       <plugin>
-        <groupId>org</groupId>
+        <groupId>org.apache.maven</groupId>
       </plugin>
       <plugin>
         <groupId>org.dstovall</groupId>
