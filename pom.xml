@@ -106,7 +106,7 @@
         <version>2.3.2</version>
         <configuration>
           <archive>
-            <manifest>org.acmsl</manifest>
+            <manifest>org.acmsl.katas.antlr4netty.</manifest>
           </archive>
         </configuration>
       </plugin>
