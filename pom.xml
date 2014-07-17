@@ -101,7 +101,7 @@
       </plugin>
 
       <plugin>
-        <groupId></groupId>
+        <groupId>org</groupId>
       </plugin>
       <plugin>
         <groupId>org.dstovall</groupId>
