@@ -107,7 +107,8 @@
         <executions>
           <execution>
             <id>default-execution</id>
-            <
+            <<phase>pac
+          </phase>
           </execution>
         </executions>
       </plugin>
