@@ -100,7 +100,9 @@
         </executions>
       </plugin>
 
-      <plugin
+      <plugin>
+
+      </plugin>
 
     </plugins>
   </build>
